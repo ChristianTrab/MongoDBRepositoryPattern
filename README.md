@@ -6,52 +6,19 @@
 
 # MongoDBRepositoryPattern
 MongoDB DAL Repository Pattern (CRUD)
-
-> Subtitle or Short Description Goes Here
-
-> ideally one sentence
-
-> include terms/tags that can be searched
-
-**Badges will go here**
-
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger)
-
-## Table of Contents (Optional)
-
-> If you're `README` has a lot of info, section headers might be nice.
-
-- [Installation](#installation)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
-
-
 
 
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
+- Clone the repo to your local machine.
+- Be sure to have a MongoDB service running on your local machine (MongoDB Community)
+- Edit appsettings.json to your MongoSettings. (With this i mean port, DatabaseName you can also be set by yourself, it will also be created by the service - no need to create databases or collections on your own.
+- Launch the project and it should navigate to https://localhost:44393/swagger/index.html
 
 ### Clone
 
 - Clone this repo to your local machine using `https://github.com/ChristianTrab/MongoDBRepositoryPattern.git`
-
-### Setup
-
-- If you want more syntax highlighting, format your code like this:
-- Coming Soon
-
----
-
-## FAQ
-
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
 
 ---
 
