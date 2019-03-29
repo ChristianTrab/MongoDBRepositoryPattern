@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDBRepositoryPattern", "MongoDBRepositoryPattern\MongoDBRepositoryPattern.csproj", "{003DBB07-DE4A-4819-A0F5-2FB3A0AE6A0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoCore", "MongoCore\MongoCore.csproj", "{B52E9BDC-7CA0-49D1-8042-51CC41C42FF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDAL", "MongoDAL\MongoDAL.csproj", "{396B8590-4F26-4CE3-9F27-5CD55152E026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoServices", "MongoServices\MongoServices.csproj", "{8C24C979-2BBA-4AC1-BEA8-B12E5D789573}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{003DBB07-DE4A-4819-A0F5-2FB3A0AE6A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003DBB07-DE4A-4819-A0F5-2FB3A0AE6A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003DBB07-DE4A-4819-A0F5-2FB3A0AE6A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003DBB07-DE4A-4819-A0F5-2FB3A0AE6A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52E9BDC-7CA0-49D1-8042-51CC41C42FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52E9BDC-7CA0-49D1-8042-51CC41C42FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52E9BDC-7CA0-49D1-8042-51CC41C42FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52E9BDC-7CA0-49D1-8042-51CC41C42FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396B8590-4F26-4CE3-9F27-5CD55152E026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396B8590-4F26-4CE3-9F27-5CD55152E026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396B8590-4F26-4CE3-9F27-5CD55152E026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396B8590-4F26-4CE3-9F27-5CD55152E026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C24C979-2BBA-4AC1-BEA8-B12E5D789573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C24C979-2BBA-4AC1-BEA8-B12E5D789573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C24C979-2BBA-4AC1-BEA8-B12E5D789573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C24C979-2BBA-4AC1-BEA8-B12E5D789573}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0ACBF40-76B4-40B8-8442-3C8B8D4C28CC}
+	EndGlobalSection
+EndGlobal
